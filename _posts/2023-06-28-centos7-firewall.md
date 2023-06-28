@@ -2,7 +2,7 @@
 layout:     post
 title:      "CentOS7防火墙放行/限制指定端口"
 subtitle:   
-date:       2023-06-28 13:00
+date:       2023-06-26 13:00
 author:     "Chenghao"
 header-img: "img/post-bg-2015.jpg"
 tags:
