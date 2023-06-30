@@ -271,7 +271,7 @@ public class RuijiTakeOutApplication {
 
 <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/查看登录请求信息.png?raw=true" alt="查看登录请求信息" style="zoom:50%;" />
 
-4. 
+
 
 ### 4.2 代码开发
 
