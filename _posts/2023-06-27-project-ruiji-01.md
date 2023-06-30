@@ -99,8 +99,8 @@ source /Users/db_reggie.sql -- use terminal
 
 ### 3.2 maven项目搭建
 1. 创建 maven 项目
-
 2. 导入 `pom.xml` 文件
+
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -184,8 +184,6 @@ source /Users/db_reggie.sql -- use terminal
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
@@ -237,7 +235,6 @@ mybatis-plus:
       id-type: assign_id
 
 ```
-
 4. 编写启动类 (`RuijiTakeOutApplication.java`)
 
 ```java
@@ -267,18 +264,20 @@ public class RuijiTakeOutApplication {
 <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/页面原型展示.png?raw=true" alt="页面原型展示" style="zoom:50%;" />
 
 2. 登录页面展示
-
+   
 <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/登录页面展示.png?raw=true" alt="登录页面展示" style="zoom:50%;" />
 
 3. 查看登录请求信息
 
 <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/查看登录请求信息.png?raw=true" alt="查看登录请求信息" style="zoom:50%;" />
 
+4. 
+
 ### 4.2 代码开发
 
 1. 创建实体类 Employee，和 employee 表进行映射
 
-<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发.png?raw=true" alt="代码开发" style="zoom:40%;" />
+   <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发.png?raw=true" alt="代码开发" style="zoom:40%;" />
 
 2. 创建Controller、Service、Dao
 
@@ -331,6 +330,7 @@ public class R<T> {
 ```
 
 4. 在Controller中创建登录方法
+
 
 处理逻辑如下：
 - 将页面提交的密码password进行md5加密处理
