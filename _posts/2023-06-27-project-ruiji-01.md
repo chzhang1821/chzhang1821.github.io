@@ -278,11 +278,132 @@ public class RuijiTakeOutApplication {
 
 1. 创建实体类 Employee，和 employee 表进行映射
 
-<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发.png?raw=true" alt="代码开发" style="zoom:50%;" />
+<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发.png?raw=true" alt="代码开发" style="zoom:40%;" />
 
-2. 导入返回结果类
+2. 创建Controller、Service、Dao
 
-此类是一个通用结果类，服务端响应的所有结果最终都会包装秤此种类型返回给前端页面
+<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发3.png?raw=true" alt="代码开发3" style="zoom:40%;" />
 
-<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/结果类R.png?raw=true" alt="结果类R" style="zoom:50%;" />
+3. 导入返回结果类
 
+此类是一个通用结果类，服务端响应的所有结果最终都会包装成此种类型返回给前端页面
+
+<!-- <img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/结果类R.png?raw=true" alt="结果类R" style="zoom:50%;" /> -->
+
+```java
+package com.itheima.common;
+
+import lombok.Data;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 通用返回结果，服务端响应的数据最终都会封装成此对象
+ * @param <T>
+ */
+@Data
+public class R<T> {
+    private Integer code; // 编码：1 成功， 0和其他数字 失败
+    private String msg; // 错误信息
+    private T data; // 数据：Employee对象或其他对象
+    private Map map = new HashMap(); // 动态数据
+
+    public static <T> R<T> sucess(T object) { // <T> 表示该方法是泛型方法
+        R<T> r = new R<T>();
+        r.data = object;
+        r.code = 1;
+        return r;
+    }
+
+    public static <T> R<T> error(String msg) {
+        R<T> r = new R<T>();
+        r.msg = msg;
+        r.code = 0;
+        return r;
+    }
+
+    public R<T> add (String key, Object value) {
+        this.map.put(key, value);
+        return this;
+    }
+}
+```
+
+4. 在Controller中创建登录方法
+
+处理逻辑如下：
+- 将页面提交的密码password进行md5加密处理
+- 根据页面提交的用户名username查询数据库
+- 如果没有查询到则返回登录失败结果
+- 密码比对，如果不一致则返回登录失败结果
+- 查看员工状态，如果为已禁用状态，则返回员工已禁用结果
+- 登陆成功，将员工id存入Session并返回登陆成功结果
+
+<img src="https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/代码开发4.png?raw=true" alt="代码开发4" style="zoom:40%;" />
+
+```java
+    /**
+     * 员工登录
+     * @param request - 获取session， 将员工对象存储到session中，若需要获取当前用户可从session直接获取
+     * @param employee
+     * @return
+     */
+    @PostMapping("/login")
+    public R<Employee> login(HttpServletRequest request, @RequestBody Employee employee) {
+        // - 将页面提交的密码password进行md5加密处理
+        String password = employee.getPassword();
+        password = DigestUtils.md5DigestAsHex(password.getBytes());
+
+        // - 根据页面提交的用户名username查询数据库
+        LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(Employee::getUsername, employee.getUsername());
+        Employee emp = employeeService.getOne(queryWrapper);
+
+        // - 如果没有查询到则返回登录失败结果
+        if (emp == null) {
+            return R.error("登录失败，该用户不存在");
+        }
+
+        // - 密码比对，如果不一致则返回登录失败结果
+        if (!emp.getPassword().equals(password)) {
+            return R.error("登录失败，密码错误");
+        }
+
+        // - 查看员工状态，如果为已禁用状态，则返回员工已禁用结果
+        if (emp.getStatus() == 0) {
+            return R.error("登录失败，账号已禁用");
+        }
+
+        // - 登陆成功，将员工id存入Session并返回登陆成功结果
+        request.getSession().setAttribute("employee", emp);
+
+        return R.sucess(emp);
+    }
+```
+
+## 5. 后台退出功能开发
+### 5.1 需求分析
+员工登录成功后，页面跳转到后台系统首页面（backend/index.html），此时右上角会显示当前登录用户的姓名（管理员，开关），如果员工需要退出系统，直接点击右侧的退出按钮即可退出系统，退出系统后页面应跳转回登录页面
+### 5.2 代码开发
+用户点击页面中退出按钮，发送请求，请求地址为`/employee/logout`，请求方式为`POST`。
+我们只需要在Controller中创建对应的处理方法即可，具体处理逻辑：
+
+1. 清理Session中的用户id
+2. 返回结果
+
+```java
+    /**
+     * 员工登出
+     * @param request
+     * @return
+     */
+    @PostMapping("/logout")
+    public R<String> login(HttpServletRequest request) {
+        // 清理Session中的用户id
+        request.getSession().removeAttribute("employee");
+        return R.sucess("退出成功");
+    }
+```
+
+### 5.3 功能测试
