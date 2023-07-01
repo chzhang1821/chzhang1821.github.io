@@ -46,7 +46,7 @@ public class Example1 {
 
 ### 2.2 一个五子棋程序
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/五子棋.png" alt = "五子棋" style = "zoom:50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/五子棋.png?raw=true" alt = "五子棋" style = "zoom:50%"/>
 
 如何判断游戏的输赢，并可以完成存盘退出和继续上局的功能
 

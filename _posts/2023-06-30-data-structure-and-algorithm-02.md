@@ -20,7 +20,7 @@ tags:
 
 编写的五子棋程序中，有存盘退出和续上盘的功能
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/稀疏数组.png" alt = "稀疏数组" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组.png?raw=true" alt = "稀疏数组" style = "zoom: 50%"/>
 
 分析问题：
 
@@ -38,7 +38,7 @@ tags:
 
 2) 把具有不同值的元素的行列及值记录在一个小规模的数组中，从而缩小程序的规模
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/稀疏数组2.png" alt = "稀疏数组2" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组2.png?raw=true" alt = "稀疏数组2" style = "zoom: 50%"/>
 
 ### 1.3 应用实例
 
@@ -48,7 +48,7 @@ tags:
 
 3) 整体思路分析
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/稀疏数组3.png" alt = "稀疏数组3" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组3.png?raw=true" alt = "稀疏数组3" style = "zoom: 50%"/>
 
 ### 1.4 代码实现
 
