@@ -20,7 +20,7 @@ tags:
 
 编写的五子棋程序中，有存盘退出和续上盘的功能
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组.png?raw=true" alt = "稀疏数组" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组.png?raw=true" alt = "稀疏数组" style = "zoom: 50%"/>
 
 分析问题：
 
@@ -38,7 +38,7 @@ tags:
 
 2) 把具有不同值的元素的行列及值记录在一个小规模的数组中，从而缩小程序的规模
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组2.png?raw=true" alt = "稀疏数组2" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组2.png?raw=true" alt = "稀疏数组2" style = "zoom: 50%"/>
 
 ### 1.3 应用实例
 
@@ -48,7 +48,7 @@ tags:
 
 3) 整体思路分析
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组3.png?raw=true" alt = "稀疏数组3" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/稀疏数组3.png?raw=true" alt = "稀疏数组3" style = "zoom: 50%"/>
 
 ### 1.4 代码实现
 
@@ -205,7 +205,7 @@ public class SparseArray01 {
 
 银行排队案例
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列1.png?raw=true" alt = "队列1" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列1.png?raw=true" alt = "队列1" style = "zoom: 50%"/>
 
 ### 2.2 队列介绍
 
@@ -216,14 +216,14 @@ public class SparseArray01 {
 3) 示意图：(使用数组模拟队列示意图)
 
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列2.png?raw=true" alt = "队列2" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列2.png?raw=true" alt = "队列2" style = "zoom: 50%"/>
 
 ### 2.3 数组模拟队列思路
 
 * 队列本身是有序列表，若使用数组的结构来存储队列的数据，则队列数组的声明如下图, 其中 maxSize 是该队 列的最大容量。 
 * 因为队列的输出、输入是分别从前后端来处理，因此需要两个变量 front 及 rear 分别记录队列前后端的下标， front 会随着数据输出而改变，而 rear 则是随着数据输入而改变，如图所示:
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列2.png?raw=true" alt = "队列2" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列2.png?raw=true" alt = "队列2" style = "zoom: 50%"/>
 
 当我们将数据存入队列时称为”addQueue”，addQueue 的处理需要有两个步骤：思路分析
 
@@ -376,9 +376,9 @@ class ArrayQueue {
 
 3) 分析示意图:
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列3.png?raw=true" alt = "队列3" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列3.png?raw=true" alt = "队列3" style = "zoom: 50%"/>
 
-<img src = "/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列4.png?raw=true" alt = "队列4" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/队列4.png?raw=true" alt = "队列4" style = "zoom: 50%"/>
 
 > 当队列位空时，条件就是front == rear，当队列满时，我们修改器条件，保留一个元素空间。也就是说，队列满时，数组中还有一个空闲单元。例如上图所示，我们就认为次队列已满。
 
