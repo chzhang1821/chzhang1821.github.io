@@ -10,9 +10,9 @@ tags:
     - Java
 ---
 
+> 笔记摘自：尚硅谷 | B站视频链接：<https://www.bilibili.com/video/BV1E4411H73v/>
+
 # 概述及经典题目举例
-
-
 
 ## 1. 数据结构和算法的关系
 

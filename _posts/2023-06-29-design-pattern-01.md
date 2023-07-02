@@ -165,7 +165,7 @@ class Vehicle2 {
 
 1. 客户端不应该依赖它不需要的接口，**即一个类对另一个类的依赖应该建立在最小的接口上**（一个类对另一个类的依赖可能是介于一个接口）
 
-2. <img src="/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/design_pattern_imgs/接口隔离原则.png" alt="接口隔离原则" style="zoom:50%"/>
+2. <img src="/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/design_pattern_imgs/接口隔离原则.png?raw=true" alt="接口隔离原则" style="zoom:50%"/>
 
 > B和D实现了Interface1，B和D需要实现Interface1中所有的方法
 
@@ -289,7 +289,7 @@ class C { // C 类通过接口 Interface1 依赖（使用）D 类，但只会用
 
 3) 接口 Interface1 中出现的方法，根据实际情况拆分为三个接口
 
-<img src="/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/design_pattern_imgs/接口隔离原则2.png" alt="接口隔离原则2" style="zoom:60%"/>
+<img src="/https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/design_pattern_imgs/接口隔离原则2.png?raw=true" alt="接口隔离原则2" style="zoom:60%"/>
 
 4. 代码实现
 
