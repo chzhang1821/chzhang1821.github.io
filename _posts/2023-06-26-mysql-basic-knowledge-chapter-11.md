@@ -27,7 +27,7 @@ tags:
 
 **情况1：为表的所有字段按默认顺序插入数据**
 
-```
+```sql
 INSERT INTO 表名
 VALUES (value1,value2,....);
 ```
@@ -155,7 +155,7 @@ WHERE  job_id LIKE '%REP%';
 
 - 使用 UPDATE 语句更新数据。语法如下：
 
-```
+```sql
 UPDATE table_name
 SET column1=value1, column2=value2, … , column=valuen
 [WHERE condition]

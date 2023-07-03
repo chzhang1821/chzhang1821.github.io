@@ -111,7 +111,7 @@ WHERE salary > (
 
 **题目：返回job_id与141号员工相同，salary比143号员工多的员工姓名，job_id和工资**
 
-```
+```sql
 SELECT last_name, job_id, salary
 FROM   employees
 WHERE  job_id =  
@@ -128,7 +128,7 @@ AND    salary >
 
 **题目：返回公司工资最少的员工的last_name,job_id和salary**
 
-```
+```sql
 SELECT last_name, job_id, salary
 FROM   employees
 WHERE  salary = 
@@ -142,7 +142,7 @@ WHERE  salary =
 
 实现方式1：不成对比较
 
-```
+```sql
 SELECT  employee_id, manager_id, department_id
 FROM    employees
 WHERE   manager_id IN
@@ -158,7 +158,7 @@ AND employee_id NOT IN(174,141);
 
 实现方式2：成对比较
 
-```
+```sql
 SELECT  employee_id, manager_id, department_id
 FROM  employees
 WHERE  (manager_id, department_id) IN
@@ -175,7 +175,7 @@ AND employee_id NOT IN (141,174);
 
 **题目：查询最低工资大于50号部门最低工资的部门id和其最低工资**
 
-```
+```sql
 SELECT   department_id, MIN(salary)
 FROM     employees
 GROUP BY department_id
@@ -191,7 +191,7 @@ HAVING   MIN(salary) >
 
 **题目：显式员工的employee_id,last_name和location。其中，若员工department_id与location_id为1800的department_id相同，则location为’Canada’，其余则为’USA’。**
 
-```
+```sql
 SELECT employee_id, last_name,
        (CASE department_id
         WHEN
@@ -203,7 +203,7 @@ FROM   employees;
 
 ### 2.5 子查询中的空值问题
 
-```
+```sql
 SELECT last_name, job_id
 FROM   employees
 WHERE  job_id =
@@ -218,7 +218,7 @@ WHERE  job_id =
 
 ### 2.5 非法使用子查询
 
-```
+```sql
 SELECT employee_id, last_name
 FROM   employees
 WHERE  salary =
@@ -266,7 +266,7 @@ WHERE  salary =
 
 **题目：查询平均工资最低的部门id**
 
-```
+```sql
 #方式1：
 SELECT department_id
 FROM employees
@@ -292,7 +292,7 @@ HAVING AVG(salary) <= ALL (
 
 ### 3.3 空值问题
 
-```
+```sql
 SELECT last_name
 FROM employees
 WHERE employee_id NOT IN (
@@ -327,7 +327,7 @@ WHERE employee_id NOT IN (
 
 **方式二：在 FROM 中使用子查询**
 
-```
+```sql
 SELECT last_name,salary,e1.department_id
 FROM employees e1,(SELECT department_id,AVG(salary) dept_avg_sal FROM employees GROUP BY department_id) e2
 WHERE e1.`department_id` = e2.department_id
@@ -340,7 +340,7 @@ AND e2.dept_avg_sal < e1.`salary`;
 
 **题目：查询员工的id,salary,按照department_name 排序**
 
-```
+```sql
 SELECT employee_id,salary
 FROM employees e
 ORDER BY (
@@ -352,7 +352,7 @@ ORDER BY (
 
 **题目：若employees表中employee_id与job_history表中employee_id相同的数目不小于2，输出这些相同id的员工的employee_id,last_name和其job_id**
 
-```
+```sql
 SELECT e.employee_id, last_name,e.job_id
 FROM   employees e 
 WHERE  2 <= (SELECT COUNT(*)
@@ -375,7 +375,7 @@ WHERE  2 <= (SELECT COUNT(*)
 
 方式一：
 
-```
+```sql
 SELECT employee_id, last_name, job_id, department_id
 FROM   employees e1
 WHERE  EXISTS ( SELECT *
@@ -386,7 +386,7 @@ WHERE  EXISTS ( SELECT *
 
 方式二：自连接
 
-```
+```sql
 SELECT DISTINCT e1.employee_id, e1.last_name, e1.job_id, e1.department_id
 FROM   employees e1 JOIN employees e2
 WHERE e1.employee_id = e2.manager_id;
@@ -394,7 +394,7 @@ WHERE e1.employee_id = e2.manager_id;
 
 方式三：
 
-```
+```sql
 SELECT employee_id,last_name,job_id,department_id
 FROM employees
 WHERE employee_id IN (
@@ -406,7 +406,7 @@ WHERE employee_id IN (
 
 **题目：查询departments表中，不存在于employees表中的部门的department_id和department_name**
 
-```
+```sql
 SELECT department_id, department_name
 FROM departments d
 WHERE NOT EXISTS (SELECT 'X'
@@ -418,7 +418,7 @@ WHERE NOT EXISTS (SELECT 'X'
 
 ### 4.4 相关更新
 
-```
+```sql
 UPDATE table1 alias1
 SET    column = (SELECT expression
                  FROM   table2 alias2
@@ -429,7 +429,7 @@ SET    column = (SELECT expression
 
 **题目：在employees中增加一个department_name字段，数据为员工对应的部门名称**
 
-```
+```sql
 # 1）
 ALTER TABLE employees
 ADD(department_name VARCHAR2(14));
@@ -444,7 +444,7 @@ SET department_name =  (SELECT department_name
 
 ### 4.4 相关删除
 
-```
+```sql
  DELETE FROM table1 alias1
  WHERE column operator (SELECT expression
                         FROM   table2 alias2
@@ -455,7 +455,7 @@ SET department_name =  (SELECT department_name
 
 **题目：删除表employees中，其与emp_history表皆有的数据**
 
-```
+```sql
 DELETE FROM employees e
 WHERE employee_id in  
            (SELECT employee_id
@@ -469,7 +469,7 @@ WHERE employee_id in
 
 **解答：**
 
-```
+```sql
 #方式1：自连接
 SELECT e2.last_name,e2.salary
 FROM employees e1,employees e2

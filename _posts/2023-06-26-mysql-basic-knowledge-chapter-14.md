@@ -87,7 +87,7 @@ WHERE   department_id = 80;
 
 查询视图：
 
-```
+```sql
 SELECT *
 FROM	salvu80;
 ```
