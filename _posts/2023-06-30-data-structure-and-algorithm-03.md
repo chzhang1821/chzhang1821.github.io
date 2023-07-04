@@ -18,7 +18,7 @@ tags:
 
 链表是有序的列表，但是它在内存中是存储如下
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/链表01.png?raw=true" alt = "链表01" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/链表01.png?raw=true" alt = "链表01" style = "zoom: 50%"/>
 
 小结上图:
 
@@ -31,7 +31,7 @@ tags:
 
 单链表(带头结点) 逻辑结构示意图如下
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/链表02.png?raw=true" alt = "链表02" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/链表02.png?raw=true" alt = "链表02" style = "zoom: 50%"/>
 
 ## 2. 单链表的应用实例
 
@@ -41,11 +41,11 @@ tags:
 
 思路分析示意图：
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/链表03.png?raw=true" alt = "链表03" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/链表03.png?raw=true" alt = "链表03" style = "zoom: 50%"/>
 
 2) 第二种方式在添加英雄时，根据排名将英雄插入到指定位置(如果有这个排名，则添加失败，并给出提示) 思路的分析示意图:
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/链表04.png?raw=true" alt = "链表04" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/链表04.png?raw=true" alt = "链表04" style = "zoom: 50%"/>
 
 3) 修改节点功能
 
@@ -55,7 +55,7 @@ tags:
 
 思路分析的示意图:
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/链表05.png?raw=true" alt = "链表05" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/链表05.png?raw=true" alt = "链表05" style = "zoom: 50%"/>
 
 5. 代码演示：
 
@@ -236,7 +236,7 @@ class SingleLinkedList {
 
 3) 分析了双向链表如何完成遍历，添加，修改和删除的思路
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/双向链表01.png?raw=true" alt = "双向链表01" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/双向链表01.png?raw=true" alt = "双向链表01" style = "zoom: 50%"/>
 
 对上图的说明:
 
@@ -443,6 +443,166 @@ class DoubleLinkedList {
             count++;
         }
         return count;
+    }
+}
+```
+
+
+
+## 4. 单向环形链表
+
+Josephu(约瑟夫、 约瑟夫环) 问题 
+
+Josephu 问题为：设编号为 1，2， … n 的 n 个人围坐一圈，约定编号为 k（1<=k<=n）的人从 1 开始报数，数 到 m 的那个人出列，它的下一位又从 1 开始报数，数到 m 的那个人又出列，依次类推，直到所有人出列为止，由 此产生一个出队编号的序列。
+
+提示：用一个不带头结点的循环链表来处理 Josephu 问题：先构成一个有 n 个结点的单循环链表，然后由 k 结 点起从 1 开始计数，计到 m 时，对应结点从链表中删除，然后再从被删除结点的下一个结点又从 1 开始计数，直 到最后一个结点从链表中删除算法结束。
+
+### 4.1 单向环形链表介绍
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/单向环形链表01.png?raw=true" alt = "单向环形链表01" style = "zoom: 50%"/>
+
+### 4.2 Josephu问题
+
+示意图：
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/约瑟夫问题01.png?raw=true" alt = "约瑟夫问题01" style = "zoom: 50%"/>
+
+Josephu 问题为：
+
+设编号为 1，2，… n 的 n 个人围坐一圈，约定编号为 k（1<=k<=n）的人从 1 开始报数，数到 m 的那个人出列，它的下一位又从 1 开始报数，数到 m 的那个人又出列，依次类推，直到所有人出列为止，由此 产生一个出队编号的序列。
+
+提示：
+
+用一个不带头结点的循环链表来处理 Josephu 问题：先构成一个有 n 个结点的单循环链表，然后由 k 结点起从 1 开 始计数，计到 m 时，对应结点从链表中删除，然后再从被删除结点的下一个结点又从 1 开始计数，直到最后一个结点从链表中删除算法结束。
+
+* 约瑟夫问题 - 创建环形链表的思路图解
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/约瑟夫问题02.png?raw=true" alt = "约瑟夫问题02" style = "zoom: 50%"/>
+
+* 约瑟夫问题 - 小孩出圈的思路分析图
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/约瑟夫问题03.png?raw=true" alt = "约瑟夫问题03" style = "zoom: 50%"/>
+
+* 代码实现：
+
+```java
+package com.chenghao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CircleLinkedListDemo {
+    public static void main(String[] args) {
+        CircleSingleLinkedList circleSingleLinkedList = new CircleSingleLinkedList();
+        circleSingleLinkedList.addBoy(125);
+        circleSingleLinkedList.showBoy();
+
+        System.out.println(circleSingleLinkedList.out(10, 20));
+    }
+}
+
+// 创建一个boy类，表示一个节点
+class Boy {
+    private int no;
+    private Boy next;
+    public Boy(int no) {
+        this.no = no;
+    }
+
+    public int getNo() {
+        return no;
+    }
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public Boy getNext() {
+        return next;
+    }
+
+    public void setNext(Boy next) {
+        this.next = next;
+    }
+}
+
+class CircleSingleLinkedList {
+    // 创建一个first节点，当前没有编号
+    private Boy first = null;
+
+    // 添加小孩儿节点，构建成一个环形的链表
+    public void addBoy(int nums) {
+        if (nums < 1) {
+            System.out.println("nums的值不正确");
+            return;
+        }
+        Boy curBoy = null;
+        for (int i = 1; i <= nums; i++) {
+            Boy boy = new Boy(i);
+            if (i == 1) {
+                first = boy;
+                first.setNext(first); // 构成环
+                curBoy = first; // 让curBoy指向第一个小孩儿
+            } else {
+                curBoy.setNext(boy);
+                boy.setNext(first);
+                curBoy = boy;
+            }
+        }
+    }
+
+    public void showBoy() {
+        if (first == null) {
+            System.out.println("链表为空");
+            return;
+        }
+        Boy curBoy = first;
+
+        while (true) {
+            System.out.printf("小孩的编号 %d \n", curBoy.getNo());
+            if (curBoy.getNext() == first) {
+                return;
+            } else {
+                curBoy = curBoy.getNext();
+            }
+        }
+    }
+
+    public Integer getLength() {
+        if (first == null) {
+            return 0;
+        }
+        Boy curBoy = first;
+        Integer len = 1;
+        while (curBoy.getNext() != first) {
+            len++;
+            curBoy = curBoy.getNext();
+        }
+        return len;
+    }
+
+
+    public List<Integer> out(int k, int m) {
+        if (k < 1 || k > getLength()) {
+            throw new RuntimeException("k必须在0和n之间");
+        }
+        List<Integer> list = new ArrayList<>();
+        // 从第k个小孩开始
+        Boy curBoy = first;
+        for (int i = 1; i < k; i++) {
+            curBoy = curBoy.getNext();
+        }
+
+        while (curBoy.getNext() != curBoy) {
+            for (int i = 1; i < m - 1; i++) {
+                curBoy = curBoy.getNext();
+            }
+            list.add(curBoy.getNext().getNo());
+            // 删除该节点的后一个节点
+            curBoy.setNext(curBoy.getNext().getNext());
+            curBoy = curBoy.getNext();
+        }
+        list.add(curBoy.getNo());
+        return list;
     }
 }
 ```
