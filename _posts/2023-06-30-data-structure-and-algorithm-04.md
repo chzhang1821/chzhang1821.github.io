@@ -20,7 +20,7 @@ tags:
 
 计算式：$7 \times 2 \times 2 - 5 + 1 - 5 + 3 - 3$ 点击计算
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/栈01.png?raw=true" alt = "栈01" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/栈01.png?raw=true" alt = "栈01" style = "zoom: 50%" />
 
 请问: 计算机底层是如何运算得到结果的？ 注意不是简单的把算式列出运算,因为我们看这个算式 7 * 2 * 2 5, 但是计算机怎么理解这个算式的(对计算机而言，它接收到的就是一个字符串)，我们讨论的是这个问题。-> 栈
 
@@ -36,7 +36,7 @@ tags:
 
 5) 图解方式说明出栈(pop)和入栈(push)的概念
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/栈02.png?raw=true" alt = "栈02" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/栈02.png?raw=true" alt = "栈02" style = "zoom: 50%" />
 
 ## 3. 栈的应用场景
 
@@ -58,7 +58,7 @@ tags:
 
 2) 实现思路分析,并画出示意图
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/栈03.png?raw=true" alt = "栈03" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/栈03.png?raw=true" alt = "栈03" style = "zoom: 50%" />
 
 3. 代码实现
 
@@ -294,7 +294,7 @@ class LinkedListStack {
 
 ## 5. 栈实现综合计算器(中缀表达式)
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/栈04.png?raw=true" alt = "栈04" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/栈04.png?raw=true" alt = "栈04" style = "zoom: 50%" />
 
 代码实现
 
@@ -593,7 +593,7 @@ public class PolandNotation {
 
 8) 依次弹出 s2 中的元素并输出，结果的逆序即为中缀表达式对应的后缀表达式
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/中缀转后缀.png?raw=true" alt = "中缀转后缀" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/中缀转后缀.png?raw=true" alt = "中缀转后缀" style = "zoom: 50%" />
 
 代码实现：
 
