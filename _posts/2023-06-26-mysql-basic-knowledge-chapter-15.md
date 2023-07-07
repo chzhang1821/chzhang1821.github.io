@@ -206,6 +206,10 @@ CREATE PROCEDURE show_min_salary(OUT ms DOUBLE)
 	END //
 
 DELIMITER ;
+
+call show_min_salary(@ms);
+
+select @ms;
 ```
 
 举例5：创建存储过程show_someone_salary()，查看“emps”表的某个员工的薪资，并用IN参数empname输入员工姓名。

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "项目实战--瑞吉外卖Day05--手机验证码登录服务"
+title:      "项目实战--瑞吉外卖Day06--手机验证码登录服务"
 subtitle:   
 date:       2023-07-02 16:00
 author:     "Chenghao"
