@@ -6,7 +6,7 @@ date:       2023-06-26 13:00
 author:     "Chenghao"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - linux
+    - Linux
     - CentOS 7
     - firewall
 ---
@@ -83,7 +83,6 @@ firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="192
 firewall-cmd --reload
 service firewalld restart
 ```
-
 
 
 
