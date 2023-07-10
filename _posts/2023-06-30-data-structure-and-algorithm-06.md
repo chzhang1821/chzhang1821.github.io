@@ -33,7 +33,7 @@ tags:
 
 3) 常见的排序算法分类(见右图):
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序01.png" alt = "排序01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序01.png?raw=true?raw=true" alt = "排序01" style = "zoom : 50%"/>
 
 ## 1.3 算法的时间复杂度
 
@@ -55,11 +55,11 @@ tags:
 
   比如计算 1-100 所有数字之和, 我们设计两种算法：
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序02.png" alt = "排序02" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序02.png?raw=true" alt = "排序02" style = "zoom : 50%"/>
 
 * 举例说明-忽略常数项
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序03.png" alt = "排序03" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序03.png?raw=true" alt = "排序03" style = "zoom : 50%"/>
 
 结论:
 
@@ -71,7 +71,7 @@ tags:
 
 * 举例说明-忽略低次项
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序04.png" alt = "排序04" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序04.png?raw=true" alt = "排序04" style = "zoom : 50%"/>
 
 结论:
 
@@ -83,7 +83,7 @@ tags:
 
 * 举例说明-忽略系数
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序05.png" alt = "排序05" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序05.png?raw=true" alt = "排序05" style = "zoom : 50%"/>
 
 结论:
 
@@ -111,23 +111,23 @@ tags:
 
 1. 常数阶 $O(1)$
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序07.png" alt = "排序07" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序07.png?raw=true" alt = "排序07" style = "zoom : 50%"/>
 
 2. 对数阶 $O(log_2n)$
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序08.png" alt = "排序08" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序08.png?raw=true" alt = "排序08" style = "zoom : 50%"/>
 
 3. 线性阶$ O(n)$
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序09.png" alt = "排序09" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序09.png?raw=true" alt = "排序09" style = "zoom : 50%"/>
 
 4. 线性对数阶 $O(nlog_2n)$
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序10.png" alt = "排序10" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序10.png?raw=true" alt = "排序10" style = "zoom : 50%"/>
 
 5. 平方阶 $O(n^2)$
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序11.png" alt = "排序11" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序11.png?raw=true" alt = "排序11" style = "zoom : 50%"/>
 
 6. 立方阶 $O(n^3)$
 
@@ -137,7 +137,7 @@ tags:
 
 常见的时间复杂度对应的图:
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序06.png" alt = "排序06" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序06.png?raw=true" alt = "排序06" style = "zoom : 50%"/>
 
 说明：
 
@@ -155,7 +155,7 @@ tags:
 
 3) 平均时间复杂度和最坏时间复杂度是否一致，和算法有关(如图:)。
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序12.png" alt = "排序12" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序12.png?raw=true" alt = "排序12" style = "zoom : 50%"/>
 
 
 
@@ -185,7 +185,7 @@ tags:
 
 ### 1.5.2 图示
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序13.png" alt = "排序13" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序13.png?raw=true" alt = "排序13" style = "zoom : 50%"/>
 
 ### 1.5.3 代码实现
 
@@ -235,9 +235,9 @@ public class BubbleSort {
 
 ### 1.6.3 选择排序思路分析图:
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序14.png" alt = "排序14" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序14.png?raw=true" alt = "排序14" style = "zoom : 50%"/>
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序15.png" alt = "排序15" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序15.png?raw=true" alt = "排序15" style = "zoom : 50%"/>
 
 ### 1.6.4 代码实现
 
@@ -283,7 +283,7 @@ public class SelectSort {
 
 ### 1.7.3 插入排序思路图:
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序16.png" alt = "排序16" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序16.png?raw=true" alt = "排序16" style = "zoom : 50%"/>
 
 ### 1.7.4 代码实现
 
@@ -352,9 +352,9 @@ public class InsertSort {
 
 ### 1.8.4 希尔排序法的示意图
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔01.png" alt = "希尔01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔01.png?raw=true" alt = "希尔01" style = "zoom : 50%"/>
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔02.png" alt = "希尔02" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔02.png?raw=true" alt = "希尔02" style = "zoom : 50%"/>
 
 
 
@@ -431,7 +431,7 @@ public class ShellSort {
 
 ### 1.9.2 快速排序法示意图:
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/快排01.png" alt = "快排01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/快排01.png?raw=true" alt = "快排01" style = "zoom : 50%"/>
 
 ### 1.9.3 快速排序法应用实例:
 
@@ -494,13 +494,13 @@ public class QuickSort {
 
 ### 1.10.2 归并排序思想示意图 1-基本思想:
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治01.png" alt = "分治01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治01.png?raw=true" alt = "分治01" style = "zoom : 50%"/>
 
 ### 1.10.3 归并排序思想示意图 2-合并相邻有序子序列:
 
 再来看看治阶段，我们需要将两个已经有序的子序列合并成一个有序序列，比如上图中的最后一次合并，要将 [4,5,7,8]和[1,2,3,6]两个已经有序的子序列，合并为最终序列[1,2,3,4,5,6,7,8]，来看下实现步骤
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治02.png" alt = "分治02" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治02.png?raw=true" alt = "分治02" style = "zoom : 50%"/>
 
 ### 1.10.4 归并排序的应用实例:
 
@@ -603,9 +603,9 @@ public class MergeSort {
 
 将数组` {53, 3, 542, 748, 14, 214} `使用基数排序, 进行升序排序
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序01.png" alt = "基数排序01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序01.png?raw=true" alt = "基数排序01" style = "zoom : 50%"/>
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序02.png" alt = "基数排序02" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序02.png?raw=true" alt = "基数排序02" style = "zoom : 50%"/>
 
 ### 1.11.4 基数排序代码实现
 
@@ -727,7 +727,7 @@ public class RadixSort {
 
 ### 1.12.1 一张排序算法的比较图
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序17.png" alt = "排序17" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序17.png?raw=true" alt = "排序17" style = "zoom : 50%"/>
 
 
 

@@ -257,7 +257,7 @@ tags:
 
 6. 设置静态ip
 
-   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/linux_imgs/静态ip.png" alt = "静态ip" style = "zoom: 50%" />
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/linux_imgs/静态ip.png?raw=true" alt = "静态ip" style = "zoom: 50%" />
 
 
 
@@ -265,5 +265,5 @@ tags:
 
 
 
-<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/linux_imgs/自动部署项目.png" alt = "自动部署项目" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/linux_imgs/自动部署项目.png?raw=true" alt = "自动部署项目" style = "zoom: 50%" />
 
