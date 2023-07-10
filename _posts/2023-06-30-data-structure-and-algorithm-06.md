@@ -33,7 +33,7 @@ tags:
 
 3) 常见的排序算法分类(见右图):
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序01.png" alt = "排序01" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序01.png" alt = "排序01" style = "zoom : 50%"/>
 
 ## 1.3 算法的时间复杂度
 
@@ -55,11 +55,11 @@ tags:
 
   比如计算 1-100 所有数字之和, 我们设计两种算法：
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序02.png" alt = "排序02" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序02.png" alt = "排序02" style = "zoom : 50%"/>
 
 * 举例说明-忽略常数项
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序03.png" alt = "排序03" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序03.png" alt = "排序03" style = "zoom : 50%"/>
 
 结论:
 
@@ -71,7 +71,7 @@ tags:
 
 * 举例说明-忽略低次项
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序04.png" alt = "排序04" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序04.png" alt = "排序04" style = "zoom : 50%"/>
 
 结论:
 
@@ -83,7 +83,7 @@ tags:
 
 * 举例说明-忽略系数
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序05.png" alt = "排序05" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序05.png" alt = "排序05" style = "zoom : 50%"/>
 
 结论:
 
@@ -111,23 +111,23 @@ tags:
 
 1. 常数阶 $O(1)$
 
-   <img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序07.png" alt = "排序07" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序07.png" alt = "排序07" style = "zoom : 50%"/>
 
 2. 对数阶 $O(log_2n)$
 
-   <img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序08.png" alt = "排序08" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序08.png" alt = "排序08" style = "zoom : 50%"/>
 
 3. 线性阶$ O(n)$
 
-   <img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序09.png" alt = "排序09" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序09.png" alt = "排序09" style = "zoom : 50%"/>
 
 4. 线性对数阶 $O(nlog_2n)$
 
-   <img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序10.png" alt = "排序10" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序10.png" alt = "排序10" style = "zoom : 50%"/>
 
 5. 平方阶 $O(n^2)$
 
-   <img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序11.png" alt = "排序11" style = "zoom : 50%"/>
+   <img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序11.png" alt = "排序11" style = "zoom : 50%"/>
 
 6. 立方阶 $O(n^3)$
 
@@ -137,7 +137,7 @@ tags:
 
 常见的时间复杂度对应的图:
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序06.png" alt = "排序06" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序06.png" alt = "排序06" style = "zoom : 50%"/>
 
 说明：
 
@@ -155,7 +155,7 @@ tags:
 
 3) 平均时间复杂度和最坏时间复杂度是否一致，和算法有关(如图:)。
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序12.png" alt = "排序12" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序12.png" alt = "排序12" style = "zoom : 50%"/>
 
 
 
@@ -185,7 +185,7 @@ tags:
 
 ### 1.5.2 图示
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序13.png" alt = "排序13" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序13.png" alt = "排序13" style = "zoom : 50%"/>
 
 ### 1.5.3 代码实现
 
@@ -235,9 +235,9 @@ public class BubbleSort {
 
 ### 1.6.3 选择排序思路分析图:
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序14.png" alt = "排序14" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序14.png" alt = "排序14" style = "zoom : 50%"/>
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序15.png" alt = "排序15" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序15.png" alt = "排序15" style = "zoom : 50%"/>
 
 ### 1.6.4 代码实现
 
@@ -283,7 +283,472 @@ public class SelectSort {
 
 ### 1.7.3 插入排序思路图:
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/排序16.png" alt = "排序16" style = "zoom : 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序16.png" alt = "排序16" style = "zoom : 50%"/>
 
 ### 1.7.4 代码实现
 
+```java
+public class InsertSort {
+    public static void main(String[] args) {
+        int[] arr = {101, 34, 119, 1, -1, 89};
+        insertSort(arr);
+    }
+
+    public static void insertSort(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            // 定义待插入的数
+            int insertVal = arr[i];
+            int insertIndex = i - 1; // 即arr[1]的前面这个数的下标
+
+            // 给insertVal找到插入的位置
+            // 说明：
+            // 1. insertIndex >= 0 保证在给insertVal 找到插入位置不越界
+            // 2. insertVal < arr[insertIndex] 待插入的数没有找到插入位置
+            while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
+                arr[insertIndex + 1] = arr[insertIndex];
+                insertIndex--;
+            }
+            // 退出while循环时，说明插入的位置找到，insertIndex + 1
+            arr[insertIndex + 1] = insertVal;
+
+            System.out.println("第" + i + "轮数组");
+            System.out.println(Arrays.toString(arr));
+        }
+    }
+}
+
+```
+
+
+
+## 1.8 希尔排序
+
+### 1.8.1 简单插入排序存在的问题
+
+我们看简单的插入排序可能存在的问题.
+
+数组 arr = {2,3,4,5,6,1} 这时需要插入的数 1(最小), 这样的过程是： 
+
+```
+{2,3,4,5,6,6} 
+{2,3,4,5,5,6} 
+{2,3,4,4,5,6}
+{2,3,3,4,5,6} 
+{2,2,3,4,5,6} 
+{1,2,3,4,5,6}
+```
+
+结论: 当需要插入的数是较小的数时，后移的次数明显增多，对效率有影响.
+
+
+
+### 1.8.2 希尔排序法介绍
+
+希尔排序是希尔（Donald Shell）于 1959 年提出的一种排序算法。希尔排序也是一种插入排序，它是简单插入排序经过改进之后的一个更高效的版本，也称为缩小增量排序。
+
+### 1.8.3 希尔排序法基本思想
+
+希尔排序是把记录按下标的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的关键词越来越多，当增量减至 1 时，整个文件恰被分成一组，算法便终止
+
+### 1.8.4 希尔排序法的示意图
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔01.png" alt = "希尔01" style = "zoom : 50%"/>
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/希尔02.png" alt = "希尔02" style = "zoom : 50%"/>
+
+
+
+### 1.8.5 希尔排序法应用实例:
+
+有一群小牛, 考试成绩分别是 {8,9,1,7,2,3,5,4,6,0} 请从小到大排序. 请分别使用
+
+1) 希尔排序时， 对有序序列在插入时采用交换法, 并测试排序速度.
+
+2) 希尔排序时， 对有序序列在插入时采用移动法, 并测试排序速度
+
+3) 代码实现
+
+```java
+public class ShellSort {
+    public static void main(String[] args) {
+        int[] arr = {8, 9, 1, 7, 2, 3, 5, 4, 6, 0};
+        shellSort2(arr);
+    }
+
+    public static void shellSort(int[] arr) {
+        int step = arr.length / 2;
+        int temp = 0;
+        while (step > 0) {
+            for (int i = step; i < arr.length; i++) {
+                for (int j = i - step; j >= 0; j -= step) {
+                    if (arr[j] > arr[j + step]) {
+                        temp = arr[j];
+                        arr[j] = arr[j + step];
+                        arr[j + step] = temp;
+                    }
+                }
+            }
+            step /= 2;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // 对交换式希尔排序进行优化 -> 移位法
+    public static void shellSort2(int[] arr) {
+        int step = arr.length / 2;
+        while (step > 0) {
+            for (int i = step; i < arr.length; i++) {
+                int j = i;
+                int temp = arr[j];
+                if (arr[j] < arr[j - step]) {
+                    while (j - step >= 0 && temp < arr[j - step]) {
+                        arr[j] = arr[j - step];
+                        j -= step;
+                    }
+                    arr[j] = temp;
+                }
+            }
+            step /= 2;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+## 1.9 快速排序
+
+### 1.9.1 快速排序法介绍:
+
+快速排序（Quicksort）是对冒泡排序的一种改进。基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排 序，整个排序过程可以递归进行，以此达到整个数据变成有序序列
+
+### 1.9.2 快速排序法示意图:
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/快排01.png" alt = "快排01" style = "zoom : 50%"/>
+
+### 1.9.3 快速排序法应用实例:
+
+要求: 对 `{-9,78,0,23,-567,70}`进行从小到大的排序，要求使用快速排序法。【测试 8w 和 800w】 说明[验证分析]:
+
+1) 如果取消左右递归，结果是 `{-9, -567, 0, 23, 78, 70}`
+
+2) 如果取消右递归,结果是 `{-567, -9, 0, 23, 78, 70}`
+
+3) 如果取消左递归,结果是 `{-9, -567, 0, 23, 70, 78}`
+
+4) 代码实现
+
+```java
+public class QuickSort {
+    public static void main(String[] args) {
+        int[] arr = {-9, 78, 0, 23, -567, 70};
+        quickSort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void quickSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int pivot = partition(arr, left, right);
+            quickSort(arr, left, pivot - 1);
+            quickSort(arr, pivot + 1, right);
+        }
+    }
+
+    public static int partition(int[] arr, int left, int right) {
+        int pivotKey = arr[left];
+        while (left < right) {
+            while (left < right && arr[right] >= pivotKey) {
+                right--;
+            }
+            swap(arr, left, right);
+            while (left < right && arr[left] <= pivotKey) {
+                left++;
+            }
+            swap(arr, left, right);
+        }
+        return left;
+    }
+
+    public static void swap(int[] arr, int left, int right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
+}
+```
+
+
+
+## 1.10 归并排序
+
+### 1.10.1 归并排序介绍:
+
+归并排序（MERGE-SORT）是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer） 策略（分治法将问题分(divide)成一些小的问题然后递归求解，而治(conquer)的阶段则将分的阶段得到的各答案"修 补"在一起，即分而治之)。
+
+### 1.10.2 归并排序思想示意图 1-基本思想:
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治01.png" alt = "分治01" style = "zoom : 50%"/>
+
+### 1.10.3 归并排序思想示意图 2-合并相邻有序子序列:
+
+再来看看治阶段，我们需要将两个已经有序的子序列合并成一个有序序列，比如上图中的最后一次合并，要将 [4,5,7,8]和[1,2,3,6]两个已经有序的子序列，合并为最终序列[1,2,3,4,5,6,7,8]，来看下实现步骤
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/分治02.png" alt = "分治02" style = "zoom : 50%"/>
+
+### 1.10.4 归并排序的应用实例:
+
+给你一个数组, val arr = Array(8, 4, 5, 7, 1, 3, 6, 2 ), 请使用归并排序完成排序。
+
+```java
+public class MergeSort {
+    public static void main(String[] args) {
+        int[] arr = {8, 4, 5, 7, 1, 3, 6, 2};
+        int[] temp = new int[arr.length];
+        mergeSort(arr, 0, arr.length - 1, temp);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // 分 + 合
+    public static void mergeSort(int[] arr, int left, int right, int[] temp) {
+        if (left < right) {
+            int mid = (left + right) / 2;
+            mergeSort(arr, left, mid, temp);
+            mergeSort(arr, mid + 1, right, temp);
+            merge(arr, left, mid, right, temp);
+        }
+    }
+    
+    /**
+     *
+     * @param arr
+     * @param left 左边有序序列的初始索引
+     * @param mid
+     * @param right
+     * @param temp 中转数组
+     */
+    public static void merge(int[] arr, int left, int mid, int right, int[] temp) {
+        int i = left; // 左边序列的初始索引
+        int j = mid + 1; // 右边序列的初始索引
+        int t = 0; // 指向temp[]数组的当前索引
+
+        // 先把左右两边的（有序）的数据按照规则填充到temp数组
+        // 知道左右两边的有序序列，有一边处理完毕为止
+        while (i <= mid && j <= right) {
+            if (arr[i] <= arr[j]) {
+                temp[t] = arr[i];
+                t++;
+                i++;
+            } else {
+                temp[t] = arr[j];
+                t++;
+                j++;
+            }
+        }
+
+        // 2.
+        // 把剩余一边的数据依次填充到temp
+        while (i <= mid) {
+            temp[t] = arr[i];
+            t++;
+            i++;
+        }
+        while (j <= right) {
+            temp[t] = arr[j];
+            t++;
+            j++;
+        }
+
+        // 3.
+        // 将temp数组的元素拷贝到arr
+        // 并不是每次都拷贝所有
+        t = 0;
+        int tempLeft = left;
+        while (tempLeft <= right) {
+            arr[tempLeft] = temp[t];
+            t++;
+            tempLeft++;
+        }
+    }
+}
+```
+
+
+
+## 1.11 基数排序
+
+### 1.11.1 基数排序(桶排序)介绍:
+
+1) 基数排序（radix sort）属于“分配式排序”（distribution sort）， 又称“桶子法”（bucket sort）或 bin sort， 顾 名思义，它是通过键值的各个位的值，将要排序的元素分配至某些“桶”中，达到排序的作用
+
+2) 基数排序法是属于稳定性的排序，基数排序法的是效率高的稳定性排序法
+   1) `{3, 1, 43, 1}` -> `{1, 1, 3, 43}`: 稳定性排序是指原先在前面的1排序后仍然在前
+
+3) 基数排序(Radix Sort)是桶排序的扩展
+
+4) 基数排序是 1887 年赫尔曼·何乐礼发明的。它是这样实现的：将整数按位数切割成不同的数字，然后按每个位数分别比较。
+
+### 1.11.2 基数排序基本思想
+
+1) 将所有待比较数值统一为同样的数位长度，数位较短的数前面补零。然后，从最低位开始，依次进行一次排序。 这样从最低位排序一直到最高位排序完成以后, 数列就变成一个有序序列。
+1) 这样说明，比较难理解，下面我们看一个图文解释，理解基数排序的步骤
+
+### 1.11.3 基数排序图文说明
+
+将数组` {53, 3, 542, 748, 14, 214} `使用基数排序, 进行升序排序
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序01.png" alt = "基数排序01" style = "zoom : 50%"/>
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/基数排序02.png" alt = "基数排序02" style = "zoom : 50%"/>
+
+### 1.11.4 基数排序代码实现
+
+要求：将数组 `{53, 3, 542, 748, 14, 214} `使用基数排序, 进行升序排序
+
+```jave
+package com.chenghao;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class RadixSort {
+    public static void main(String[] args) {
+        int[] arr = {53, 3, 542, 748, 14, 214};
+        radixSort(arr);
+
+    }
+
+    public static void radixSort(int[] arr) {
+        // 得到最大位数
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        // 最大数是几位数
+        int maxLength = (max + "").length();
+
+        // 定义一个二维数组表示十个桶，每个桶就是一个一维数组
+        int[][] bucket = new int[10][arr.length];
+
+        // 为了记录每个桶实际存放了多少数据，我们定义一个一维数组来记录各个桶每次放入了多少个数据
+        int[] bucketElementCounts = new int[10];
+
+        for (int i = 0, n = 1; i < maxLength; i++, n *= 10) {
+            for (int j = 0; j < arr.length; j++) {
+                // 取出每个元素的个位
+                int digitOfElement = arr[j] / n % 10;
+                bucket[digitOfElement][bucketElementCounts[digitOfElement]] = arr[j];
+                bucketElementCounts[digitOfElement]++;
+            }
+            // 取出数据
+            int index = 0;
+            for (int k = 0; k < bucketElementCounts.length; k++) {
+                // 如果桶中有数据，我们才放入到原数组
+                if (bucketElementCounts[k] != 0) {
+                    for (int l = 0; l < bucketElementCounts[k]; l++) {
+                        arr[index] = bucket[k][l];
+                        index++;
+                    }
+                }
+                bucketElementCounts[k] = 0;
+            }
+            System.out.println("第" + (i + 1) + "轮排序后的数组：" + Arrays.toString(arr));
+        }
+
+//
+//        // 2. (针对每个元素的十位)
+//
+//        for (int j = 0; j < arr.length; j++) {
+//            // 取出每个元素的个位
+//            int digitOfElement = arr[j] / 10 % 10;
+//            bucket[digitOfElement][bucketElementCounts[digitOfElement]] = arr[j];
+//            bucketElementCounts[digitOfElement]++;
+//        }
+//        // 取出数据
+//        index = 0;
+//        for (int k = 0; k < bucketElementCounts.length; k++) {
+//            // 如果桶中有数据，我们才放入到原数组
+//            if (bucketElementCounts[k] != 0) {
+//                for (int l = 0; l < bucketElementCounts[k]; l++) {
+//                    arr[index] = bucket[k][l];
+//                    index++;
+//                }
+//            }
+//            bucketElementCounts[k] = 0;
+//        }
+//        System.out.println(Arrays.toString(arr));
+//
+//        // 3. (针对每个元素的百位)
+//
+//        for (int j = 0; j < arr.length; j++) {
+//            // 取出每个元素的个位
+//            int digitOfElement = arr[j] / 100 % 10;
+//            bucket[digitOfElement][bucketElementCounts[digitOfElement]] = arr[j];
+//            bucketElementCounts[digitOfElement]++;
+//        }
+//        // 取出数据
+//        index = 0;
+//        for (int k = 0; k < bucketElementCounts.length; k++) {
+//            // 如果桶中有数据，我们才放入到原数组
+//            if (bucketElementCounts[k] != 0) {
+//                for (int l = 0; l < bucketElementCounts[k]; l++) {
+//                    arr[index] = bucket[k][l];
+//                    index++;
+//                }
+//            }
+//            bucketElementCounts[k] = 0;
+//        }
+//        System.out.println(Arrays.toString(arr));
+    }
+}
+```
+
+### 1.11.5 基数排序的说明:
+
+1) 基数排序是对传统桶排序的扩展，速度很快.
+
+2) 基数排序是经典的空间换时间的方式，占用内存很大, 当对海量数据排序时，容易造成 OutOfMemoryError 。
+
+3) 基数排序时稳定的。 [注:假定在待排序的记录序列中， 存在多个具有相同的关键字的记录，若经过排序，这些 记录的相对次序保持不变，即在原序列中， r[i]=r[j]， 且 r[i]在 r[j]之前， 而在排序后的序列中， r[i]仍在 r[j]之前， 则称这种排序算法是稳定的；否则称为不稳定的]
+
+4) 有负数的数组，我们不用基数排序来进行排序, 如果要支持负数，参考: https://code.i-harness.com/zh-CN/q/e98fa9
+
+
+
+## 1.12 常用排序算法总结和对比
+
+### 1.12.1 一张排序算法的比较图
+
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/排序17.png" alt = "排序17" style = "zoom : 50%"/>
+
+
+
+### 1.12.2 相关术语解释：
+
+1) 稳定：如果 a 原本在 b 前面，而 a=b，排序之后 a 仍然在 b 的前面；
+
+2) 不稳定：如果 a 原本在 b 的前面，而 a=b，排序之后 a 可能会出现在 b 的后面；
+
+3) 内排序：所有排序操作都在内存中完成；
+
+4) 外排序：由于数据太大，因此把数据放在磁盘中，而排序通过磁盘和内存的数据传输才能进行；
+
+5) 时间复杂度： 一个算法执行所耗费的时间。
+
+6) 空间复杂度：运行完一个程序所需内存的大小。
+
+7) n: 数据规模
+
+8) k: “桶”的个数
+
+9) In-place: 不占用额外内存
+
+10) Out-place: 占用额外内存
