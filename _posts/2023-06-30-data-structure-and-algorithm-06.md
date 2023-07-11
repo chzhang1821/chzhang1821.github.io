@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "数据结构与算法 05-排序算法"
+title:      "数据结构与算法 06-排序算法"
 subtitle:   
 date:       2023-07-07 16:00
 author:     "Chenghao"
