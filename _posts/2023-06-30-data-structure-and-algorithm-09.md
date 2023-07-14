@@ -20,23 +20,23 @@ tags:
 
 优点：通过下标方式访问元素，速度快。对于有序数组，还可使用二分查找提高检索速度。 缺点：如果要检索具体某个值，或者插入值(按一定顺序)会整体移动，效率较低 [示意图] 画出操作示意图：
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树01.png" alt = "树01" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树01.png?raw=true" alt = "树01" style = "zoom: 50%" />
 
 2) 链式存储方式的分析
 
 优点：在一定程度上对数组存储方式有优化(比如：插入一个数值节点，只需要将插入节点，链接到链表中即可， 删除效率也很好)。 缺点：在进行检索时，效率仍然较低，比如(检索某个值，需要从头节点开始遍历) 【示意图】 操作示意图：
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树02.png" alt = "树02" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树02.png?raw=true" alt = "树02" style = "zoom: 50%" />
 
 3) 树存储方式的分析
 
 能提高数据存储，读取的效率, 比如利用 二叉排序树(Binary Sort Tree)，既可以保证数据的检索速度，同时也 可以保证数据的插入，删除，修改的速度。【示意图,后面详讲】 案例: [7, 3, 10, 1, 5, 9, 12]
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树03.png" alt = "树03" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树03.png?raw=true" alt = "树03" style = "zoom: 50%" />
 
 ### 1.1.2 树示意图
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树04.png" alt = "树04" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树04.png?raw=true" alt = "树04" style = "zoom: 50%" />
 
 ### 1.1.3 二叉树的概念
 
@@ -46,15 +46,15 @@ tags:
 
 3) 示意图
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树05.png" alt = "树05" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树05.png?raw=true" alt = "树05" style = "zoom: 50%" />
 
 4) 如果该二叉树的所有叶子节点都在最后一层，并且结点总数 = $ 2^n -1$,  n 为层数，则我们称为满二叉树。
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树06.png" alt = "树06" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树06.png?raw=true" alt = "树06" style = "zoom: 50%" />
 
 5) 如果该二叉树的所有叶子节点都在最后一层或者倒数第二层，而且最后一层的叶子节点在左边连续，倒数第二 层的叶子节点在右边连续，我们称为完全二叉树
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树07.png" alt = "树07" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树07.png?raw=true" alt = "树07" style = "zoom: 50%" />
 
 ### 1.1.4 二叉树遍历的说明
 
@@ -74,7 +74,7 @@ tags:
 
 应用实例的说明和思路
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树08.png" alt = "树08" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树08.png?raw=true" alt = "树08" style = "zoom: 50%" />
 
 代码实现：
 
@@ -247,7 +247,7 @@ class HeroNode {
 
 4) 思路分析图解
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树09.png" alt = "树09" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树09.png?raw=true" alt = "树09" style = "zoom: 50%" />
 
 5. 代码实现
 
@@ -526,7 +526,7 @@ class HeroNode {
 
 4) 完成删除思路分析
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树10.png" alt = "树10" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树10.png?raw=true" alt = "树10" style = "zoom: 50%" />
 
 5. 代码实现
 
@@ -811,7 +811,7 @@ class HeroNode {
 
 5) 后面在讲解 二叉排序树时，在给大家讲解具体的删除方法
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树11.png" alt = "树11" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树11.png?raw=true" alt = "树11" style = "zoom: 50%" />
 
 
 
@@ -823,7 +823,7 @@ class HeroNode {
 
   从数据存储来看，数组存储方式和树的存储方式可以相互转换，即数组可以转换成树，树也可以转换成数组， 看右面的示意图。
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树12.png" alt = "树12" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树12.png?raw=true" alt = "树12" style = "zoom: 50%" />
 
 * 要求:
 
@@ -897,7 +897,7 @@ class ArrBinaryTree1 {
 
 {1, 3, 6, 8, 10, 14} 构建成一颗二叉树，n+1=7
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树13.png" alt = "树13" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树13.png?raw=true" alt = "树13" style = "zoom: 50%"/>
 
 问题分析:
 
@@ -925,9 +925,9 @@ class ArrBinaryTree1 {
 
 应用案例说明：将下面的二叉树，进行中序线索二叉树。中序遍历的数列为 {8, 3, 10, 1, 14, 6}
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树13.png" alt = "树13" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树13.png?raw=true" alt = "树13" style = "zoom: 50%"/>
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/data_structure_imgs/树14.png" alt = "树14" style = "zoom: 50%"/>
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/data_structure_imgs/树14.png?raw=true" alt = "树14" style = "zoom: 50%"/>
 
 * 说明: 当线索化二叉树后，Node 节点的 属性 left 和 right ，有如下情况:
 

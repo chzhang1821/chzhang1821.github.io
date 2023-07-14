@@ -19,7 +19,7 @@ tags:
 
 **用户数量多，系统访问量大，频繁访问数据库，系统性能下降，用户体验差**，使用缓存优化，内存运行效率远高于数据库查询操作
 
-<img src = "/Users/chenghaozhang/Library/CloudStorage/OneDrive-Personal/MyBlog/chzhang1821.github.io/img/ruiji_project_imgs/缓存优化.png" alt = "缓存优化" style = "zoom: 50%" />
+<img src = "https://github.com/chzhang1821/chzhang1821.github.io/blob/master/img/ruiji_project_imgs/缓存优化.png?raw=true" alt = "缓存优化" style = "zoom: 50%" />
 
 ## 2. 环境搭建
 
